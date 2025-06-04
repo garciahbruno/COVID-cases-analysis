@@ -1,0 +1,24 @@
+=== Raw State Data ===
+Alabama: 1659936 cases, 21138 deaths, $53913 median income, Republican
+Arizona: 2607545 cases, 34402 deaths, $69056 median income, Democratic
+California: 12711918 cases, 112443 deaths, $84907 median income, Democratic
+Colorado: 1874746 cases, 15552 deaths, $82254 median income, Democratic
+Florida: 8048191 cases, 95206 deaths, $63062 median income, Republican
+Georgia: 3287483 cases, 44069 deaths, $66559 median income, Democratic
+Illinois: 4136659 cases, 42005 deaths, $72205 median income, Democratic
+Indiana: 2208419 cases, 28018 deaths, $62743 median income, Republican
+Kentucky: 1808735 cases, 19183 deaths, $55573 median income, Republican
+Louisiana: 1684058 cases, 19270 deaths, $52087 median income, Republican
+Massachusetts: 2367542 cases, 25586 deaths, $89645 median income, Democratic
+Michigan: 3306221 cases, 44762 deaths, $63498 median income, Democratic
+Minnesota: 1900794 cases, 16458 deaths, $77720 median income, Democratic
+
+Average COVID cases across states: 3661711.31
+
+=== Average Case Rate by Party (per 100k) ===
+Democratic: 32868.18 cases per 100,000
+Republican: 34264.00 cases per 100,000
+
+=== Death Rate by Party (per 100k) ===
+Democratic: 349.82 deaths per 100,000
+Republican: 389.52 deaths per 100,000

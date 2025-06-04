@@ -5,6 +5,10 @@ import json
 from bs4 import BeautifulSoup
 import re
 import matplotlib.pyplot as plt
+OUTPUT_FOLDER = "plots" 
+if not os.path.exists(OUTPUT_FOLDER):
+    os.makedirs(OUTPUT_FOLDER)
+
 
 
 # poverty census link: https://www.census.gov/data/developers/data-sets/Poverty-Statistics.html
@@ -328,7 +332,7 @@ def plot_death_rate_by_party(cur):
     plt.ylabel("Political Party")  # Now on the y-axis
     plt.xlabel("Deaths per 100,000 People")
     plt.tight_layout()
-    plt.savefig("covid_death_rate_by_party.png")
+    plt.savefig(os.path.join(OUTPUT_FOLDER, "covid_death_rate_by_party.png"))
     plt.close()
 
 
@@ -363,7 +367,7 @@ def plot_avg_case_rate_by_party(cur):
     plt.xlabel("Political Party")
     plt.ylabel("Cases per 100,000 People")
     plt.tight_layout()
-    plt.savefig("avg_case_rate_by_party.png")
+    plt.savefig(os.path.join(OUTPUT_FOLDER, "avg_case_rate_by_party.png"))
     plt.close()
 
 
@@ -391,7 +395,7 @@ def plot_income_vs_case_rate(cur):
     plt.xlabel("Median Income ($)")
     plt.ylabel("COVID Cases per 100,000 People")
     plt.tight_layout()
-    plt.savefig("income_vs_case_rate.png")
+    plt.savefig(os.path.join(OUTPUT_FOLDER, "income_vs_case_rate.png"))
     plt.close()
 
 def plot_education_vs_case_rate(cur):
@@ -424,7 +428,7 @@ def plot_education_vs_case_rate(cur):
     plt.ylabel("COVID Cases per 100,000")
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig("education_vs_case_rate.png")
+    plt.savefig(os.path.join(OUTPUT_FOLDER, "education_vs_case_rate.png"))
     plt.close()
 
 
