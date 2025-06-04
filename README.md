@@ -2,9 +2,12 @@
 
 This project investigates how COVID-19 case and death rates across U.S. states correlate with socioeconomic and political factors such as poverty rates, median income, educational attainment, and 2020 presidential election results.
 
+It was originally created as a final project for my SI 206 (Data-Oriented Programming) class at the University of Michigan. Although I haven’t modified the code beyond what was submitted, I wanted to present it here as a complete, standalone showcase of what I built—highlighting my ability to work with APIs, web scraping, databases, and data visualization in Python.
+
 ## 📊 Overview
 
 We collect and integrate data from multiple sources—public APIs and web scraping—and analyze it using SQLite and Python. The project stores this data in a relational database, performs joins across tables, and produces visualizations to explore meaningful trends.
+
 
 ## 🔍 Data Sources
 
